@@ -75,7 +75,7 @@ class Report:
         elif self.change_count and self.check:
             return 1
 
-        return 0
+        return 1
 
     def __str__(self) -> str:
         """Render a color report of the current state.
